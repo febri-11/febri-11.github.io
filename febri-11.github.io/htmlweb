@@ -1,0 +1,122 @@
+
+Blog
+
+ Menu
+Contoh Coding HTML Website Dalam 15 Menit
+Development Modul Tutorial
+Contoh Coding HTML Website Dalam 15 Menit
+ Dicoding Intern 9 December 2020
+
+Hallo, teman-teman!
+
+Jumpa lagi nih. Pada kesempatan kali ini saya akan berbagi pengalaman seputar ngoding website. Biasanya pembuatan sebuah website memerlukan waktu yang relatif lam, baik itu web berjenis e-commerce, profil perusahaan, maupun layanan service. 
+
+Lalu, apakah kita dapat ngoding web hanya dalam waktu 15 menit saja? Iya, tentu bisa. Seperti apakah website yang akan kita buat? Penasaran kan? Kamu mesti ikuti terus tips dan trik yang satu ini ya. Simak tuntas dan praktek langsung yuk teman-teman.
+
+Pengertian HTML
+html
+
+Sebelum masuk ke contoh, alangkah baiknya mengenal dulu HTML. Sudah tahu kan apa itu HTML? HTML adalah adalah singkatan dari Hypertext Markup Language. HTML memungkinkan seorang pengguna dapat membuat dan menyusun bagian heading, paragraf, link atau tautan, dan blockquote untuk halaman sebuah website.
+
+HTML sebenarnya bukanlah bahasa pemrograman, artinya HTML tidak punya kemampuan untuk membuat fungsionalitas yang dinamis. Contoh kode atau script membuat paragraf.
+
+Haskell
+<p>Hallo sobat Dicoding apa kabarnya? Mudah-mudahan dalam keadaan sehat-sehat saja ya. Aamiin.</p>
+
+Adapun contoh struktur dasar dari HTML yang dapat kamu pelajari dan praktekkan di antaranya sebagai berikut ini.
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dicoding Indonesia Website</title>
+  </head>
+  <body>
+    <main>
+      <h1>Dicoding Indonesia</h1>
+      <h2>Gudangnya developer handal</h2>
+      <p>Mencetak banyak lulusan terbaik khususnya para developer.</p>
+      <img src="logo_dicoding.png" alt="Image dicoding" />
+      <p>Paragraph two with a <a href="https://dicoding.com">klik disini</a></p>
+    </main>
+  </body>
+</html>
+Menentukan Tema Web
+content web
+
+Bagi teman-teman yang masih bingung akan membuat web yang seperti apa, tentunya yang pertama kali kita lakukan adalah menentukan tema web yang akan dibuat. Oke, kita contohkan saja website sederhana dengan tema portofolio. Di sini kita akan mencoba membuat web portofolio menggunakan HTML5 ditambah sentuhan magic dari CSS3 agar tampilannya sedikit menarik dan responsif. Apa itu mungkin? Tidak akan tahu sebelum kita coba hehe.
+
+Mempersiapkan Tools yang Akan Digunakan
+tools web
+
+Disini kita akan menggunakan tools-tools sebagai berikut ini:
+
+Teks editor: VS Code atau Teks Editor Lain
+Kode program : HTML5 dan CSS3
+Web browser: Chrome
+Contoh Ngoding Web Portofolio
+web
+
+Pertama buka teks editor kamu. Setelah dibuka kita akan membuat folder proyek terlebih dahulu. Kamu dapat menyimpan folder di sembarang tempat. Ok langsung saja. Kita akan membuat 2 buah file. Diantaranya index.html dan style.css.
+
+Kode Lab: index.html
+
+XHTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web | Portofolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Portofolio</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <main class="content">
+        <section class="hero">
+          <img src="online.png" alt="" />
+          <div class="hero-content">
+            <h1>Profesi</h1>
+            <br />
+            <h2>Junior Content Writer at Dicoding</h2>
+            <br /><br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aperiam dolore
+              assumenda velit repellendus recusandae magni consectetur mollitia facere incidunt
+              inventore perspiciatis debitis doloribus ullam minima culpa voluptatem. Repellendus,
+              option.
+            </p>
+            <a href="" class="action-btn">Profile Saya</a>
+          </div>
+        </section>
+      </main>
+      <div class="footer">
+        <footer>
+          <ul>
+            <li>
+              <img src="instagram.png" alt="" /><a><p>Instagram</p></a>
+            </li>
+            <li>
+              <img src="facebook.png" alt="" /><a><p>Facebook</p></a>
+            </li>
+            <li>
+              <img src="twitter.png" alt="" /><a><p>Twitter</p></a>
+            </li>
+            <li>
+              <img src="telegram.png" alt="" /><a><p>Telegram</p></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
